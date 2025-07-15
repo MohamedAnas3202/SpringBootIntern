@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="st" class="org.example.Student"/>
+    <bean id="fun" class="org.example.SpringBoot"/>
+    <bean id="m1" class="org.example.Method1"/>
+    <bean id="m2" class="org.example.Method2"/>
+    <bean id="m3" class="org.example.Method3"/>
+
+</beans>

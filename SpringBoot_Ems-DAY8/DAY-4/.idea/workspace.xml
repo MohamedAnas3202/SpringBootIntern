@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f31ad7d-9f48-40c4-a3e5-9a5c2925ae79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/java/com/example/SpringSecurity/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DAY-5/SpringSecurity/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2zZpaBLDFshyNjV75wTQxnxW0yD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringbootfirstApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SUMMER-INTERN/DAY-4&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringBoot-React-Intern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringBoot-React-Intern" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f31ad7d-9f48-40c4-a3e5-9a5c2925ae79" name="Changes" comment="" />
+      <created>1751948510643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751948510643</updated>
+    </task>
+    <servers />
+  </component>
+</project>
