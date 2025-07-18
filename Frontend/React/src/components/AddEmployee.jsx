@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-// import './Register.css';
+import "./AddEmployee.css"; // Create this CSS file for styling
 
 const AddEmployee = () => {
   const [empID, setEmpID] = useState("");
@@ -17,13 +17,20 @@ const AddEmployee = () => {
 
   const handleAddEmployee = async (e) => {
     e.preventDefault();
+
+    // Validation
+    if (!empID || !name || !job) {
+      alert("Please fill all fields.");
+      return;
+    }
+
     try {
       const response = await axios.post(
         "http://localhost:8080/employee",
         {
           empId: Number(empID),
-          name,
-          job,
+          name: name.trim(),
+          job: job.trim(),
         },
         {
           headers: {
@@ -32,49 +39,57 @@ const AddEmployee = () => {
         }
       );
 
-      alert("Employee Added Successfully!");
+      alert("✅ Employee Added Successfully!");
       resetForm();
     } catch (err) {
-      console.error("Failed Adding Employee:", err);
-      alert("Adding Employee Failed");
+      console.error("❌ Failed Adding Employee:", err);
+      alert("❌ Adding Employee Failed");
     }
   };
 
   return (
-    <div className="container">
-      <h1 className="register-heading">Add Employee</h1>
-      <form onSubmit={handleAddEmployee} className="register-form">
-        <label htmlFor="empID">Employee ID</label>
-        <input
-          id="empID"
-          type="number"
-          value={empID}
-          onChange={(e) => setEmpID(e.target.value)}
-          placeholder="Enter Employee Id"
-          required
-        />
+    <div className="add-employee-container">
+      <h2 className="form-title">Add New Employee</h2>
+      <form onSubmit={handleAddEmployee} className="employee-form">
+        <div className="form-group">
+          <label htmlFor="empID">Employee ID</label>
+          <input
+            id="empID"
+            type="number"
+            value={empID}
+            onChange={(e) => setEmpID(e.target.value)}
+            placeholder="Enter Employee ID"
+            required
+          />
+        </div>
 
-        <label htmlFor="name">Name</label>
-        <input
-          id="name"
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Enter Employee Name"
-          required
-        />
+        <div className="form-group">
+          <label htmlFor="name">Employee Name</label>
+          <input
+            id="name"
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Enter Name"
+            required
+          />
+        </div>
 
-        <label htmlFor="job">Job</label>
-        <input
-          id="job"
-          type="text"
-          value={job}
-          onChange={(e) => setJob(e.target.value)}
-          placeholder="Enter Job"
-          required
-        />
+        <div className="form-group">
+          <label htmlFor="job">Job Role</label>
+          <input
+            id="job"
+            type="text"
+            value={job}
+            onChange={(e) => setJob(e.target.value)}
+            placeholder="Enter Job Title"
+            required
+          />
+        </div>
 
-        <button type="submit">Add Employee</button>
+        <button type="submit" className="submit-btn">
+          ➕ Add Employee
+        </button>
       </form>
     </div>
   );
